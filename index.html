@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link  rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>My Calculator</h1>
+    </header>
+    <div  class="main-container">
+   
+    <div  class="calculator">
+        <section class="display">
+            <input type="text" disabled>
+            
+        </section>
+        <div class="buttons">
+            <ul  style="list-style-type:none">
+                <button class="clear_btn">AC</button>
+                <button class ="num_btn">7</button>
+                <button class ="num_btn">4</button>
+                <button class ="num_btn">1</button>
+                <button class ="num_btn">0</button>
+            </ul>
+            <ul  style="list-style-type:none">
+                <button class ="clear_btn">C</button>
+                <button class ="num_btn">8</button>
+                <button class ="num_btn">5</button>
+                <button class ="num_btn">2</button>
+                <button class ="num_btn">.</button>
+            </ul>
+            <ul  style="list-style-type:none">
+                <button class="sqrt_btn">√</button>
+                <button class ="num_btn">9</button>
+                <button class ="num_btn">6</button>
+                <button class ="num_btn">3</button>
+                <button class ="eq_btn">=</button>
+            </ul>
+            <ul  style="list-style-type:none">
+                <button  class="op_btn">^</button>
+                <button class ="op_btn">/</button>
+                <button class ="op_btn">*</button>
+                <button class ="op_btn">-</button>
+                <button class ="op_btn">+</button>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="select_container">
+        <button class="select_btn" id="btn">
+            <i class="fa fa-arrow-right"></i>
+        </button>
+      
+        <select name="styles" class="select">
+            <option value="default">Default</option>
+            <option value="snowy">Snowy</option>
+            <option value="fall">Fall</option>
+            <option value="aqua">Aqua</option>
+    
+        </select>
+        
+    
+</div>
+</div>
+
+</body>
+   
+    <script src="script.js"></script>
+</body>
+</html>
